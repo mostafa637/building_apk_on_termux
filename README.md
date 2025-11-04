@@ -16,7 +16,7 @@
 <span dir=ltr>
 
 ```bash
-pkg install clang aapt2 d8 zipalign keytool apksigner  openjdk libglvnd-dev
+pkg install clang aapt2 d8 zipalign keytool apksigner openjdk libglvnd-dev
 
 ```
 </span>
