@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.myapp">
+
+    <application android:label="MyNDKApp"
+        android:hasCode="true">
+
+        <activity android:name="android.app.NativeActivity"
+            android:label="MyNDKApp"
+            android:exported="true">
+            <meta-data android:name="android.app.lib_name"
+                android:value="native-lib" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
